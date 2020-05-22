@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        div{
+            margin:0;
+            text-align: center;
+            color: #F33040;
+            font-size:130%;
+        }
+        html,body{
+            width:100%;
+            height:100%;
+            margin: 0;
+            background-color: #FEDC9C;
+        }
+        .mainbox{
+            float: left;
+            width: calc(50% - 6px);
+            height: calc(50% - 6px);
+            margin:0;
+            padding: 0px;
+            border : 3px solid #F37171;
+        }
+        .bigbox{
+            width: 100%;
+            height: 100%;
+        }
+        .blur:before{
+            content:none;
+            position : absolute;
+            top: 0;left:0; right: 0;bottom:0;
+            background:inherit;
+            z-index:-1;
+            filter:blur(6px);
+            -webkit-filter: blur(6px);
+            filter:url(#blur);
+        }
+        .index{
+            font-weight: bold;
+            text-shadow: 2px 2px 2px gray;
+        }
+        .index:hover{
+            transform:scale(1.2); 
+                -webkit-transform:scale(1.2);
+            background-color:black;
+            color:yellow;
+        }
+        .imgtxt{
+            text-align: center;
+            float:left;
+            margin: 30px;
+            margin-bottom:0;
+        }
+        img{
+            border: 2px solid #FB8545;
+        }
+        </style>
+    </head>
+    <body>
+        <section>
+    <div class='bigbox'>
+        <a href="https://www.dabangapp.com/search#/map?name%22%3A%22%EC%A0%95%EB%8F%99%22%7D"><div class='mainbox'>
+            <div class="index" style="margin:100px;" title="JUST FUCKIN' DARE">START WITH JEON-SE IN SEOUL</div>
+            
+        </div>
+        <div class='mainbox'>
+            <div class="index" style="margin:100px" title="JUST FUCKIN' DARE">BUY HOME IN SEOUL</div>
+            
+        </div>
+        <div class='mainbox'>
+            <div class="index" style="margin:100px" title="JUST FUCKIN' DARE">BRING MY FAMILY<br>TO SEOUL/GYEONG-GI</div>
+       
+        </div>
+        </a>
+        <a href="http://postfiles5.naver.net/MjAxNzA5MTBfMTAg/MDAxNTA0OTk1NjE1NTMw.3BdkAgsPV_t5pRVKBh7kkwhrupQPxyxC1U1lY6Z97jUg.2qUUTBDnI9YvFsYoJvg_YO8SU2XcFC-cTFaoqZpZU14g.JPEG.blueshoes16/%EB%B0%A9%EA%B7%80%EC%A2%80%EB%80%90%EB%8B%A4.jpg?type=w1"><div class='mainbox'>
+            <div class="index" style="margin:100px" title="JUST FUCKIN' DARE">TO BE A FARTER<br>IN HACKER POOL</div>
+        </div></a>
+    </div>
+    </section>
+    <footer style="margin:0px; text-align:center">
+        <div class="imgtxt" ><img src="warren.jpg" alt="warren buffett" title="young buffett"></div>
+        <div class="imgtxt" >"I will tell you how to become rich.<br>Close the doors.<br>Be fearful when others are greedy.<br>Be greedy when others are fearful."<br> - Warren Buffett</div>
+    </footer>
+    </body>
+</html>
